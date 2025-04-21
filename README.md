@@ -38,13 +38,16 @@ InceptionV3’s capability for multi-scale feature fusion, this multi-model
 approach supports a robust evaluation of both specialized learning tasks and 
 the general transfer of features for retinal disease diagnosis. 
 
-● Layer Customization: Attention MechanismsIn order to enhance the clinical 
+● Layer Customization: Attention Mechanisms
+
+In order to enhance the clinical 
 relevance of these pre-trained architectures, we introduce attention mechanisms 
 after mid-level convolutional blocks to highlight pathological features such as fluid 
 accumulation in DME,thereby ensuring that the networks focus on clinically 
 significant regions within the images.  
 
 ● Output System: Dual-Branch Output Heads 
+
 The classification head is further modified into a dual-output system:  
   ● Multi-class classification: The first output branch employs a multi-class 
 Softmax classifier to categorize Optical Coherence Tomography (OCT) scans 
