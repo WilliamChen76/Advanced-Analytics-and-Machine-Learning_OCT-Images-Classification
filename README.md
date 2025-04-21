@@ -49,11 +49,11 @@ significant regions within the images.
 ● Output System: Dual-Branch Output Heads 
 
 The classification head is further modified into a dual-output system:  
-  ● Multi-class classification: The first output branch employs a multi-class 
+  1. Multi-class classification: The first output branch employs a multi-class 
 Softmax classifier to categorize Optical Coherence Tomography (OCT) scans 
 into 4 categories  (CNV, DME, Drusen, Normal)  
 
-  ● Risk score regression : The second branch implements a regression-based 
+  2. Risk score regression : The second branch implements a regression-based 
 risk scoring system that quantifies disease severity(0-10 scale) 
 Explainability Framework: Grad-CAM-Based Visualizations 
 
